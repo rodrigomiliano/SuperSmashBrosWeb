@@ -1,0 +1,100 @@
+/*para todo el texto en blanco*/
+*{
+	color:white
+}
+
+/*ok*/
+h1 a{
+	text-indent: -9000px;
+	background: url(../img/smashlogo.png) no-repeat;
+	width: 300px;
+	height: 145px;
+}
+
+/*ok*/
+header{    
+	background: url("../img/fondo1.jpg")  no-repeat center center; 
+	display: block;
+	overflow-x: auto;		
+}
+
+/*para la altura del fondo del header*/
+header .container-fluid .row{
+	height: 440px;	
+}
+
+/*
+header .container-fluid>a{
+    margin:auto;
+    margin-top: 30px;
+    text-align:center;
+    width:100%;
+}
+*/
+
+nav.navbar-dark{
+	border-bottom: 5px solid white !important;
+	border-top: 5px solid white !important;	
+    background-color: red !important;
+}
+
+/*ok*/
+body{
+	background-image: url("../img/back.png")
+}
+
+/*ok*/
+.card-body{
+	border: 5px solid white !important;
+	background-color: red !important;
+}
+
+/*ok*/
+.card{
+	border: none !important;
+}
+
+/*ok*/
+.titulos{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+
+
+/*BORRAR
+#acerca h3{
+	font-size: 3em;
+}
+*/
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+
+.plr-0{
+    padding-left:0 !important;
+    padding-right: 0 !important;
+}
+
+
+.smashfooter{
+    padding:20px 0;
+    background: url("../img/footer.jpg") center;
+}
+
+
+p.scrollable{
+	height: 150px;
+	overflow-y:auto;
+}
+
+
+.fs100{
+	font-size:100px;
+}
+
+
